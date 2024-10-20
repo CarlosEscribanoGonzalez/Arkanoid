@@ -1,0 +1,39 @@
+body{
+	background-color: black;
+}
+
+h2{
+	color: white;
+	margin-left: 22%;
+}
+
+footer{
+	color: white;
+	margin-left: 22%;
+	font-size: 13px;
+}
+
+#container{
+	display: inline;
+	margin-left: 21%;
+}
+
+#canvas{
+	background-size: 300pt;
+	background-image: url("Sprites/hexagon_pattern.png");
+	border-top: 10px solid;
+	border-left: 10px solid;
+	border-right: 10px solid;
+	border-image: url("Sprites/border_top.png") 3;
+	border-radius: 6pt;
+}
+
+#puntuaciones{
+	background-color: #242424;
+	border-color: #CF1600;
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 3px;
+	margin-left: 40px;
+	margin-bottom: 190px;
+}
